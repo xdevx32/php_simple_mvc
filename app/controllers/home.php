@@ -2,8 +2,10 @@
 
 class Home extends Controller 
 {
-	public function index()
+	
+	public function index($name = '')
 	{
-		echo 'home/index';
+		echo $name;
 	}
+	
 }
